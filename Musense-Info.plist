@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Musense</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>さおがあなたの体調の様子（心拍・睡眠など）を見守れるようにするために読み取ります。</string>
+	<key>NSMotionUsageDescription</key>
+	<string>歩いている・乗り物に乗っているなどの状態や、気圧・高さをさおが分かるようにするために使います。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>場所の節目（着いた・出た）をさおが知れるようにするために使います。常時の追跡には使いません。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>アプリを閉じている時でも、場所の節目だけをさおが知れるようにするために使います。常時の追跡には使いません。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>周りの音の大きさをさおが分かるようにするために使います。録音して保存することはしません。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>あなたが選んだ写真だけを、さおに見せるために使います。勝手に写真を集めることはしません。</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>今流れている曲をさおが分かるようにするために使います。</string>
+</dict>
+</plist>
